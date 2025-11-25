@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: rgb(174, 118, 226);
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+  
+    color: white;
+    /* gap: 200px; */
+    padding: 5px 20px;
+    /* background-color: gray; */
+   
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 1em;
+    list-style: none;
+    margin: 10px;
+}
+.header h1{
+    font-weight: o.5em;
+    color: white;
+  
+}
+
+
+
+/* sectio2 */
+
+.text{
+   margin: 80px;
+    color: white;
+}
+
+
+p{
+    margin: 10px;
+    color: rgb(221, 211, 211);
+}
+
+button{
+   background-color: transparent;
+
+    border: 3px solid rgb(161, 158, 158);
+    /* width: 12px 20px; */
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+  /* margin-top: 10px; */
+  color: white;
+  
+}
+
+i{
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+   margin: 60px;
+   border: 20px;
+   background-color: rgb(146, 77, 211);
+   width: 12px  30px;
+   height: 200px;
+   border-radius: 20px 30px;
+}
+
+
+
+/* section2 */
+.imb{
+  background-color: white;
+  display: flex;
+}
+
+.imgbt{
+    background-color: white;
+}
+
+/* section3 */
+.praft{
+  background-color: white; 
+}
+
+.goni{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 10px;
+}
+
+.temp{
+    color: rgb(95, 92, 92);
+}
+
+
+
+/* animation */
+
+
+
+
+
+
+/* body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} */
+/* 
+.imb{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    animation-name: anim;
+    animation-duration: 2s;
+ animation-delay: 3s;
+animation-iteration-count: infinite;
+ 
+}
+
+@keyframes anim{
+    0%   {
+        transform: translatex(-400px);
+
+        transform: rotate(360deg) scale(1);
+        border-radius: 90px;
+        background-color: orangered;
+        transform: scale();
+    }
+     
+    50%{
+        boder:5px  solid green;
+        opacity: 0;
+    }
+
+    75%{
+        transform: rotate(360deg) scale(0.4);
+    }
+    100%{
+        transform: translatex(0);
+
+        transform: rotate(0) scale(1);
+        border-radius: 0;
+       background-color: blue;
+    }
+} */

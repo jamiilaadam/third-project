@@ -1,0 +1,25 @@
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    transition-property: all;
+   transition-duration: 4s;
+   transition-timing-function: ease-in-out;
+   transition-delay: 1s;
+   transition: all 1s ease-in 2s;
+}
+
+.box:hover{
+    /* width: 500px;
+    border-radius: 40px;
+    background-color: red;
+
+    transform: scalex(0.5,1.4); */
+     /* transform: scaley(0.5,1.4); */
+
+      transform: skew(30deg);
+     /* transform: rotate(180deg)scale(4); */
+
+}
+
+

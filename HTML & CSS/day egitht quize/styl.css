@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black ;
+   
+}
+
+.container{
+    background-color: rgb(6, 6, 37);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    align-items: center;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+
+.lists{
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    color: white;
+    /* width: 25px;
+    margin: 15px; */
+    /* padding-right: 80px; */
+    /* font-family:  Arial, sans-serif; */
+    /* margin-right: 30px;
+    text-align: center;   */
+    
+}
+
+.name{
+    color: rgb(51, 5, 124);
+    font-size: 1em;
+}
+.center{
+   padding: 20px;
+   margin: 20px;
+   color: white;
+}
+
+.circle{
+    border: solid blue;
+    margin: 10px;
+     width: 90px;
+    border-radius: 5px;
+}
+
+.descriotion{
+    background-color: blue;
+    margin: 20px;
+    margin-right: 20px;
+    color: white;
+    width: 90px;
+    border-radius: 5px;
+}
+/* .imageee{
+   justify-content: space-around;
+   width: 200px;
+   border-radius: 20px;
+   margin: 20px;
+   justify-content: center;
+   display: flex;
+   justify-content: space-between;
+
+
+}
+
+ */
+
+ 
+ 
+
+.heade{
+    background-color: rgb(3, 3, 24);
+    padding: 10px;
+   
+}
+.parant{
+    margin: 20px;
+    color: white;
+}
+
+.parant h1{
+    color: #5a1170;
+}
+.parant strong{
+    color: blueviolet;
+    font-size: 4em;
+    max-width: 200px;
+}
+
+
+.bottom{
+ display: flex;
+ margin-top:10px ;
+ gap: 10px;
+ width: 1000px;
+ padding: 20px;
+ margin: 10px;
+ height: 40px;
+
+
+}
+   
+.iconone{
+    padding: 50px;
+    background-color: rgb(43, 43, 88);
+    
+}
+.two{
+    padding: 50px;
+    background-color: rgb(94, 92, 92);
+}
+.three{
+      padding: 50px;
+    background-color: rgb(94, 92, 92);
+
+}
+
+.four{
+      padding: 50px;
+    background-color: rgb(94, 92, 92);
+}
+.service{
+    justify-content: center;
+}
+    
+.bragph{
+    align-items: center;
+   margin-bottom: 20px;
+   justify-content: center;
+   padding: 40px;
+   color: #5a1170;
+ font-size: 1em;
+}
+
+.TTbrant{
+    display: flex;
+ margin-top:10px ;
+ gap: 20px;
+ width: 1000px;
+ /* padding: 20px; */
+ margin: 10px;
+ /* height: 40px; */
+
+  
+}
+
+.TTbranth1{
+    color: #5a1170;
+}
+.Twoo{
+    color: #5a1170;
+}
+
+
+.ONE{
+      padding: 50px;
+   background-color: transparent;
+   color: white; 
+   border: solid rgb(34, 34, 133);
+   
+}
+.TWO{
+      padding: 50px;
+   background-color: transparent;
+   color: white;  
+   border: solid grey;
+}
+.THREE{
+      padding: 50px;
+   background-color: transparent;
+   color: white;  
+   border: solid rgb(27, 27, 112);
+}
+
+.thrans{
+     display: flex;
+ margin-top:10px ;
+ gap: 10px;
+ width: 1000px;
+ /* padding: 20px; */
+ margin: 10px;
+ /* height: 40px; */
+ 
+}
+.One{
+     padding: 50px;
+   background-color: transparent;
+   color: white; 
+   border: solid grey;
+   
+}
+.TWo{
+   padding: 50px;
+   background-color: transparent;
+  color: white; 
+   border: solid rgb(25, 25, 100);
+}
+.THRE{
+     padding: 50px;
+   background-color: transparent;
+   color: white; 
+  border: solid grey;
+}
+.feat{
+    color: #5a1170;
+    padding: 10px;
+}
+.FREST{
+ color: white;
+    padding: 10px;
+}
+.BBtm{
+     display: flex;
+ margin-top:10px ;
+ gap: 10px;
+ width: 1000px;
+ /* padding: 20px; */
+ margin: 10px;
+ /* height: 40px; */
+ 
+}
+.six{
+     padding: 50px;
+   background-color: transparent;
+   color: white; 
+    border: solid gray; 
+}
+.seven{
+   padding: 50px;
+   background-color: transparent;
+   color: white;  
+    border: solid grey;
+}
+
+.eight{
+   padding: 50px;
+   background-color: transparent;
+   color: white; 
+   border: solid gray; 
+}
+.heyh1{
+    color: #5a1170;
+}
+.me{
+  padding: 50px;
+   background-color: transparent;
+   color: white; 
+   border: solid gray;   
+   justify-content: center; 
+}
+
+
+
+
+
+
+.futured-project{
+    background-color: gray;
+     width: 250px;
+     height: 220px;
+     margin-left: 40px;
+     margin-top: 20px;
+     border-radius: 5px;
+     border: solid blueviolet;
+}
+#cr{
+    width: 208px;
+    height: 95px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 5px ;
+}
+#headerTree{
+    font-size: 0.9em;
+   color: rgb(141, 59, 214);
+   padding-left: 10px ;
+   padding-top: 6px;
+  
+
+}
+#qorl{
+    font-size: 0.6em;
+    padding-left: 10px;
+    padding-top: 8px;
+    color: white;
+}
+#button-kow{
+    background-color:rgb(141, 59, 214) ;
+    color: white;
+    margin-left: 18px;
+    margin-top: 20px;
+    border: none;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+}
+#button-labo{
+     
+    margin-left: 18px;
+    margin-top: 20px;
+    border: none;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+   
+
+}
+.box-ka-guud{
+    display: flex;
+    width: 200px;
+}
+.hy{
+    padding-left: 50px;
+}
+.hy h1{
+    color: blueviolet;
+}
+.hy p{
+    color: white;
+}
+.ic{
+    color: blueviolet;
+}
+.integram{
+    color: blueviolet;
+}
+.drible{
+    color: blueviolet;
+}
+.email{
+    color: blueviolet;
+}

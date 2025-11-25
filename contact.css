@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    color: white;
+    /* gap: 200px; */
+    padding: 10px 40px;
+    background-color: pink;
+   
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    font-size: 2em;
+    list-style: none;
+}
+.header h1{
+    font-weight: 2em;
+    color: white;
+  
+}
+.button{
+    background-color: rgb(194, 118, 130);
+    border: 10px;
+    /* width: 12px 20px; */
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+  margin-top: 10px;
+  color: white; 
+}
+
+/* .img1 img{
+margin: 100px;
+display: flex;
+
+}
+.img1{
+    color: white;
+} */
+
+.wayn{
+    display: flex;
+    margin: 100px;
+    color: white;
+    font-size: 1.5em;
+    gap: 10px;
+  background-color: palevioletred;
+   padding: 20px;
+   
+}
+
+
+/* footer */
+
+/* footer */
+
+
+.footer{
+     display: flex;
+    justify-content: space-around;
+    background-color: pink;
+    color: white;
+    /* gap: 200px; */
+    padding: 20px 40px;
+}
+
+.footer{
+     font-weight: 2em;
+    color: white;
+}
+
+.footer i{
+    
+   
+    width: 12px 20px;
+    padding: 5px 20px;
+   
+    font-size: 1.8em;
+  margin-top: 10px;
+  color: pink;
+}
+

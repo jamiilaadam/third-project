@@ -1,0 +1,52 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+  justify-content: space-around;
+
+}
+
+.header h1{
+padding: 10px;
+
+}
+
+.header li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 2em;
+  
+}
+
+.canterimgs{
+    display: flex;
+   justify-content: space-around;
+}
+
+.left{
+  margin-top: 60px
+}
+
+.left h1{
+    font-size: 3em;
+}
+
+.left p{
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left button{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border: 10px;
+    padding: 12px 30px;
+    font-size: 2em;
+    border-radius: 10px;
+}

@@ -1,0 +1,33 @@
+/* span{
+    color: red;
+}
+h1{
+    color: blue;
+}
+.tittle{
+    color: brown;
+} */
+
+
+/* .box{
+    background-color: blue;
+    width: 300px;
+    height: 80;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+} */
+.parent{
+    display: flex ;
+    /* flex-direction: column-reverse; */
+    /* justify-self: start; */
+    /* justify-self: end; */
+    /* justify-self: center; */
+    /* justify-self: space -around; */
+    /* justify-self: space-between; */
+    /* justify-self: space evenly; */
+/* } */
+
+.containerimg{
+     width: 350px;
+}

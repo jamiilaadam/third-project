@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(211, 166, 173);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    color: white;
+    /* gap: 200px; */
+    padding: 10px 40px;
+    background-color: pink;
+   
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    font-size: 2em;
+    list-style: none;
+}
+.header h1{
+    font-weight: 2em;
+    color: white;
+  
+}
+.button{
+    background-color: rgb(194, 118, 130);
+    border: 10px;
+    /* width: 12px 20px; */
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+  margin-top: 10px;
+  color: white; 
+}
+
+/* wayn */
+
+.wayn{
+    display: flex;
+    background-color: palevioletred;
+}
+
+.leftimg{
+    margin: 100px;
+    color: white;
+
+}
+
+.leftimg h1{
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+
+.text{
+    margin: 150px;
+     /* margin-right: 100px; */
+    font-size: 1.5em;
+    color: white;
+    width: 40%;
+    justify-content: right;
+   
+}
+
+/* buttons */
+
+.buttons1{
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    gap: 40px;
+    
+    
+}
+
+.one{
+    background-color: palevioletred;
+    padding: 10px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+
+   
+}
+.two{
+    background-color: palevioletred;
+    padding: 10px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+}
+
+.three{
+    background-color: palevioletred;
+    padding: 10px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+}
+.four{
+    background-color: palevioletred;
+    padding: 10px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+}
+.big{
+    justify-items: center;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+/* adinka mia */
+
+ .lst{
+    display: flex;
+    background-color: pink;
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    margin-right: 100px;
+    margin: 20px;
+   
+   
+}
+
+
+.last1{
+    margin: 20px;
+    
+}
+.icons{
+    display: flex;
+    color: palevioletred;
+
+}
+
+.iconame{
+    color: white; 
+}
+
+.lastbuton{
+    background-color: palevioletred;
+    border-radius: 20px;
+    border: none;
+   width: 160px;
+   padding: 10px;
+   font-size: 1.8em;
+    color: rgb(32, 31, 31);
+   margin: 20px;
+}
+
+
+/* 2 */
+
+.lst{
+    display: flex;
+    background-color: pink;
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    margin-right: 100px;
+    margin: 20px;
+   
+   
+}
+
+
+.last1{
+    margin: 20px;
+    
+}
+.icons{
+    display: flex;
+    color: palevioletred;
+
+}
+
+.iconame{
+    color: white; 
+}
+
+.lastbuton{
+    background-color: palevioletred;
+    border-radius: 20px;
+    border: none;
+   width: 160px;
+   padding: 10px;
+   font-size: 1.8em;
+    color: rgb(32, 31, 31);
+   margin: 20px;
+}
+
+
+/* 3 */
+
+.lst{
+    display: flex;
+    background-color: pink;
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    margin-right: 100px;
+    margin: 20px;
+   
+   
+}
+
+.disply{
+    display: flex;
+    gap: 60px;
+}
+
+.last1{
+    margin: 20px;
+    
+}
+.icons{
+    display: flex;
+    color: palevioletred;
+
+}
+
+.iconame{
+    color: white; 
+}
+
+.lastbuton{
+    background-color: palevioletred;
+    border-radius: 20px;
+    border: none;
+   width: 160px;
+   padding: 10px;
+   font-size: 1.8em;
+    color: rgb(32, 31, 31);
+   margin: 20px;
+}
+
+/* qls */
+.woman{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+.hh1{
+   margin: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.img1{
+   background-color: white;
+   width: 20%;
+    border-radius: 100px;
+  
+}
+
+.img2{
+   background-color: pink;
+   width: 20%;
+    border-radius: 100px;
+  
+}
+.img3{
+   background-color: pink;
+   width: 20%;
+    border-radius: 100px;
+  
+}
+.juu{
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    width: 100px;
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+}
+
+.pragph{
+    display: flex;
+    justify-content: center;
+    color: rgb(148, 99, 99);
+    font-size: 1.5em;
+   margin: 20px;
+}
+
+.big2{
+    background-color: white;
+   padding: 10px;
+}
+  
+
+/* foooter */
+
+.footer{
+     display: flex;
+    justify-content: space-around;
+    background-color: pink;
+    color: white;
+    /* gap: 200px; */
+    padding: 20px 40px;
+}
+
+.footer{
+     font-weight: 2em;
+    color: white;
+}
+
+.footer i{
+    
+   
+    width: 12px 20px;
+    padding: 5px 20px;
+   
+    font-size: 1.8em;
+  margin-top: 10px;
+  color: pink;
+}
+

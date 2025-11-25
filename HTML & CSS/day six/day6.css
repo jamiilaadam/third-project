@@ -1,0 +1,27 @@
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 2em;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.prent{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 70px;
+    /* column-gap: 80px; */
+    /* row-gap: 120px; */
+    flex-wrap: wrap;
+    align-items: start;
+    align-content: space-evenly;
+
+    /* align-items: stretch; */
+    /* flex-direction: row; */
+    
+    height: 100vh;
+}

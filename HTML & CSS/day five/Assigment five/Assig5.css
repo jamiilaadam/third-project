@@ -1,0 +1,74 @@
+.container{
+  
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+.box{
+    color: yellow;
+    text-align: center;
+}
+.Buynow{
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    color: black;
+}
+  .check{
+    text-align: left;
+  }
+  
+
+  .descpretion{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+.box{
+    color: yellow;
+    text-align: center;
+}
+
+.Buynow{
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.DDI{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+.box{
+    color: yellow;
+    text-align: center;
+}
+
+.Buynow{
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    color: black;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  color: white;
+}
+
+

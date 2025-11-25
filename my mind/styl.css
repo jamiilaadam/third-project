@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+   padding: 0;
+}
+
+body{
+    background-color: brown;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.one h1{
+    color: white;
+}
+
+
+
+.praft{
+    display: flex;
+    justify-content: space-around;
+   background-color: rgb(161, 72, 72);
+   width: 45%;
+   margin: 30px;
+   padding: 20px;
+   border-radius: 10px;
+
+}
+
+.text p{
+    margin: 30px;
+    font-size: 2em;
+    color: white;
+   
+}
+ .text button{
+    margin: 30px;
+    display: flex;
+    justify-items: end;
+   background-color: brown;
+    border-radius: 20px;
+    border: none;
+    width: 20%;
+    color: white;
+   padding: 5px;
+ }
+/* containet2 */
+ .container2{
+    display: flex;
+   gap: 40px;
+   background-color: rgb(177, 53, 53);
+   width: 27%;
+   margin: 20px;
+  border-radius: 10px;
+ }
+ .text22{
+    padding: 5px;
+    color: white;
+    margin-top: 15px;
+    
+    
+ }
+
+
+ /* container3 */
+
+ .container3{
+    display: flex;
+   gap: 40px;
+   background-color: rgb(177, 53, 53);
+   width: 27%;
+   margin: 20px;
+  border-radius: 10px;
+ }
+ .text22{
+    padding: 5px;
+    color: white;
+    margin-top: 15px;
+    
+    
+ }
+
+
+ /* container4 */
+
+
+ .container4{
+    display: flex;
+   gap: 40px;
+   background-color: rgb(177, 53, 53);
+   width: 27%;
+   margin: 20px;
+  border-radius: 10px;
+ }
+ .text22{
+    padding: 5px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    
+    
+ }
+
+
+ .waynnn{
+   display: grid table-row 20px;
+   
+ }
+
+
+ /* last ions */
+
+ .bb{
+    display: flex;
+    justify-items: center;
+    margin: 20px;
+    width: 30%;
+   background-color: rgb(170, 51, 51);
+   border-radius: 20px;
+   border: none;
+ }
+
+ .bb i{
+    margin: 20px;
+    color: rgb(143, 129, 129);
+ }

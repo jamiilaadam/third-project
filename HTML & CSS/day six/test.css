@@ -1,0 +1,187 @@
+/* General Page Style */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 60px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.logo span {
+  font-size: 12px;
+  color: #ff6600;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #ff6600;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+}
+
+.hero-video {
+  max-width: 400px;
+  text-align: left;
+}
+
+.hero-video p {
+  font-size: 0.95em;
+  margin-top: 10px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Basic Reset and Container */
+.about-us-section {
+    padding: 40px 0; /* Add some vertical space around the section */
+    background-color: #f8f8f8; /* Light background for the section */
+}
+
+.container {
+    max-width: 1200px; /* Max width of the content area */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add horizontal padding */
+
+    /* CSS Grid setup for the 3-column layout */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 30px; /* Space between the columns */
+}
+
+/* Styling for each column block */
+.column-block {
+    background-color: white; /* White background for each card */
+    /* Box shadow is used on the original image for a subtle lift */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+    border-radius: 8px; /* Optional: slight rounded corners */
+    overflow: hidden; /* Ensures the image doesn't bleed out */
+}
+
+/* Image styling */
+.image-placeholder {
+    /* Ensures the image containers have an equal height for the layout uniformity */
+    height: 250px; 
+    overflow: hidden;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    /* Ensures the image covers the area without distortion */
+    object-fit: cover; 
+    /* To mimic the black & white effect on the right-most image */
+    filter: grayscale(100%); 
+}
+
+/* Adjust the first image to look more like the original */
+.column-block:first-child .image-placeholder img {
+    object-fit: contain; /* Keeps the whole logo visible */
+    padding: 20px; /* Adds space around the logo */
+    filter: none; /* No grayscale for the logo */
+}
+
+/* Text content styling */
+.text-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.text-content h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.text-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* "Learn More" link styling */
+.learn-more {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+} 

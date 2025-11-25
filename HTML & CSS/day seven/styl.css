@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100vh;
+  
+    
+}
+.left .one{
+    border: 0.4px solid red;
+}
+.left img{
+    margin-top: 20px;
+    width: 300px;
+
+}
+.center{
+    width: 30%;
+   height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.sawir{
+    background-color: rgb(247, 244, 244);
+}
+.sawir p{
+    color: gray;
+}
+.sawir img{
+    width: 300px;
+}
+.right{
+    width: 40%;
+    height: 100vh;
+   
+}
+
+.center img{
+    margin-top: 100px;
+}
+.star{
+    color: red;
+}
+.circle{
+    display: flex;
+    
+    gap: 10px;
+    margin-top: 10px;
+}
+.circle i{
+margin: 2px;
+
+}
+
+.circle p{
+    margin-top: 10px;
+    
+}
+#icon{
+    margin-top: 10px;
+}

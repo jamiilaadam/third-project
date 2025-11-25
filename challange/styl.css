@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: rgb(61, 59, 59);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+  
+    color: white;
+    /* gap: 200px; */
+    padding: 5px 20px;
+    background-color: gray;
+   
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 1em;
+    list-style: none;
+    margin: 10px;
+}
+.header h1{
+    font-weight: o.5em;
+    color: white;
+  
+}
+.button{
+    /* background-color: blue; */
+    border: 10px;
+    /* width: 12px 20px; */
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+  /* margin-top: 10px; */
+  color: white;
+  
+}
+
+
+/* text&img */
+
+.left{
+    margin: 20px;
+    padding: 20px;
+}
+
+.left h1{
+   margin: 10px; 
+   color: white;
+}
+
+.left p{
+    margin: 10px;
+    
+   color: gray;
+   
+}
+
+.button{
+    /* background-color: blue; */
+    border: 10px;
+    /* width: 12px 20px; */
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+  /* margin-top: 10px; */
+  color: white;
+  margin: 10px;
+  
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    padding-right: 30px;
+    margin: 20px;
+    
+}
+
+/* center */
+.center{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(74, 74, 83);
+    width: 200px;
+    
+
+}
+
+.center h1{
+    color: white;
+}
+
+.center p{
+    margin: 5px;
+    color: gray;
+    font-size: medium;
+}
+
+.center i{
+    color: gray;
+    font-size: 1.5em;
+}
+
+/* two */
+
+.center h2{
+    color: blueviolet;
+}
+
+.center h3{
+    color: blueviolet;
+}
+
+.parft{
+    display: flex;
+    gap: 40px;
+   padding-bottom: 30px;
+
+
+}
+
+/* end1 */
+
+
+.eend {
+    display: flex;
+    padding-right: 20px;
+}
+
+/* indxhtml2 */
+  
+.back{
+    background-image: url(fire.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+}
+
+.it{
+    color: white;
+    margin: 30px;
+    padding: 40px;
+}
+
+.hero{
+    margin: 20px;
+    font-size: 6em;
+  font-weight: 800;  
+position: relative;
+}
+
+.ti p{
+font-size: 1.5em;
+font-weight: 800;
+}
+#buy{
+    background-color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+}
+#add{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 20px;
+    color: white ;
+   border-radius: 10px;
+}
+
+.pra{
+    margin: 20px;
+}
+
+.swr{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1000PX;
+    position: absolute;
+    top: 80px;
+    left: 550px;
+
+}
+/* media */
+@media(max-width:390px){
+    body{
+        background-color: brown;
+    }
+    .header{
+        padding: 12px 20px;
+    }
+    .header ul{
+        display: none;
+    }
+    .header h1{
+        font-size: 3em;
+        padding-right: 50px;
+    }
+}
